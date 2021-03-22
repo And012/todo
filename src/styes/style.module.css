@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(35, 71, 44);
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+td ,th{
+  text-align: center;
+}
