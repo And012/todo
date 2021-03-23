@@ -18,7 +18,7 @@ function App() {
   return (
     <div className={Styles.container}>
       <h1>Welcome</h1>
-      <h3>{!dataState.length ? 'Your List of Todo is empty create one play with it. If you find some bugs feel to free to inform Ando about it. Thank you for attention.' : 'Great job continue play with it.'}</h3>
+      <h3>{!dataState.length ? 'Your List of Todo is empty create one play with it. If you find some bugs feel free to inform Ando about it. Thank you for attention.' : 'Great job continue play with it.'}</h3>
 
       <div className={Styles.tableContainer}>
 
